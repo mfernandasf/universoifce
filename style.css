@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+}
+
+/* cabeçalho */
+
+.navegacao {
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+	background-color: #609966;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#logo_ifce {
+  width: 207px;
+  height: 122px;
+}
+
+.menu_navegacao{
+  display:flex;
+  gap: 8rem;
+}
+
+.ancora_menu{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* conteudo */
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+.universo{
+  color: #40513B;
+  font-family: 'Open Sans';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+.conhecimento {
+  color: #9DC08B;
+  font-family: 'Open Sans';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sobre {
+  width: 641px;
+  height: 323px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+/*rodapé*/
+
+footer {
+  color: white;
+  text-align: center;
+  background-color:#609966;
+  padding: 10px;
+  font-weight: 600;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab:wght@300&display=swap');
