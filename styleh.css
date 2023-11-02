@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+}
+
+/* cabeçalho */
+
+.navegacao {
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+	background-color: #609966;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#logo_ifce {
+  width: 207px;
+  height: 122px;
+}
+
+
+.menu_navegacao{
+  display:flex;
+  gap: 8rem;
+}
+
+
+.ancora_menu{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* conteudo */
+
+.conteudo_quinta {
+  display: flex;
+  gap: 5rem;
+}
+
+.conteudo_sexta {
+  display: flex;
+  gap: 5rem;
+}
+
+h3 .subtitulo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+.quinta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10rem;
+  width: 10rem;
+  padding: 0.5rem;
+  background-color: #609966;
+  border-radius: 2rem;
+  justify-content: center;
+}
+
+.tarde {
+  width: 12rem;
+  height: 12rem;
+  padding: 0.5rem;
+  background: #609966;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.quinta:hover {
+  transform: scale(1.1);
+}
+
+.sexta:hover {
+  transform: scale(1.1);
+}
+
+.ancora_menu:hover {
+  transform: scale(1.1);
+}
+
+.conteudo_quinta {
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo_sexta {
+  display: flex;
+  justify-content: center;
+}
+
+.paragrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+.titulo{
+  color: #40513B;
+  font-family: 'Open Sans';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+.subtitulo {
+  color: #9DC08B;
+  font-family: 'Open Sans';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  padding: 1.1%;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+/*rodapé*/
+
+footer {
+  color: white;
+  text-align: center;
+  background-color:#609966;
+  padding: 10px;
+  font-weight: 600;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab:wght@300&display=swap');
+
+.conteudo_sexta{
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  gap: 1.5rem;
+}
