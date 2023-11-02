@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navegacao {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: #B9B4C7;
+	height: 50px;
+	align-items: center;
+	list-style: none;
+	text-decoration: none;
+	align-content: space-around;
+	column-gap: 30px;
+}
